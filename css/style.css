@@ -1,3 +1,80 @@
-h1 {
+/* Common */
+
+html {
     font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    min-width: 375px;
+
+    /* debug */
+    border: 3px;
+    border-color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+
+    /* debug */
+    background-color: darkgrey;
+}
+
+/* Logo/nav container */
+.heading {
+    display: flex;
+    justify-content: space-between;
+
+    /* debug */
+    background-color: gold;
+}
+
+.heading nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    /* debug */
+    background-color: beige;
+}
+
+.heading nav ul li {
+    display: inline;
+    padding: 30px;
+
+    /* debug */
+    background-color: aquamarine;
+}
+
+.heading nav ul li:hover{
+    border-top: 3px;
+    border-top-style: solid;;
+    border-top-color: red;
+}
+
+/* Main */
+
+main {
+    /* debug */
+    background-color: aqua;
+}
+
+/* Section */
+
+section {
+    /* debug */
+    background-color: coral;
+}
+
+/* Footer */
+
+footer {
+    /* debug */
+    background-color: hotpink;
 }
