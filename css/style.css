@@ -52,14 +52,13 @@ header {
 .heading nav ul li {
     display: inline;
     padding: 30px;
+    border-top: 3px solid transparent;
 
     /* debug */
     background-color: aquamarine;
 }
 
 .heading nav ul li:hover{
-    border-top: 3px;
-    border-top-style: solid;;
     border-top-color: red;
 }
 
