@@ -100,8 +100,16 @@ header {
     background-color: aquamarine;
 }
 
-.heading nav ul li:hover{
-    border-top-color: red;
+.heading nav ul li:hover {
+    border-top-color: rgba(0, 101, 252, 1);
+}
+
+.heading a {
+    color: black;
+}
+
+.heading a:hover {
+    color: rgba(0, 101, 252, 1);
 }
 
 .filterBar {
