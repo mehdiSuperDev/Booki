@@ -22,6 +22,37 @@ a {
     text-decoration: none;
 }
 
+/* Component */
+
+/* Filter */
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 20px 4px 20px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 25px;
+    margin: 10px;
+
+    /* debug */
+    background-color: white;
+}
+
+.filter:hover {
+    background-color: rgb(222, 235, 255);
+}
+
+.filter p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.filter i {
+    color: rgb(0, 101, 252);
+}
+
 /* Header */
 
 header {
@@ -33,6 +64,7 @@ header {
 /* Logo/nav container */
 .heading {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
     /* debug */
@@ -60,6 +92,12 @@ header {
 
 .heading nav ul li:hover{
     border-top-color: red;
+}
+
+.filterBar {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
 }
 
 /* Main */
