@@ -1,3 +1,7 @@
+/* import at rule */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://necolas.github.io/normalize.css/latest/normalize.css");
+
 /* Common */
 
 html {
@@ -5,6 +9,7 @@ html {
 }
 
 body {
+    margin: 0px auto;
     max-width: 1400px;
     min-width: 375px;
 
