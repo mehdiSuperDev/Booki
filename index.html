@@ -9,7 +9,7 @@
   <body>
     <header>
       <div class="heading">
-        <p>Logo</p>
+        <img src="assets/logo/Booki.png" alt="Booki"/>
         <nav>
           <ul>
             <li><a href="#">Hébergements</a></li>
@@ -22,9 +22,10 @@
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre-ville ou en pleine nature</p>
       <div>
-        <form>
-          <input type="search" placeholder="Marseille, France">
-          <button>Rechercher</button>
+        <form method="post" action="placeholder.php">
+          <i class="fa-sharp fa-solid fa-location-dot searchIcon"></i>
+          <input type="search" value="Marseille, France" placeholder="localisation" name="location" id="location">
+          <input type="submit" value="Rechercher" class="searchButton"/>
         </form>
       </div>
       <div class="filterBar">
