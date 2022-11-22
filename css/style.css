@@ -44,7 +44,7 @@ p {
 
 p {
     /* debug */
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
 }
 
 a {
@@ -145,28 +145,41 @@ header {
     background-color: darkmagenta;
 }
 
-
 form {
     display: flex;
+    /* align-items: stretch; */
     flex-direction: row;
     height: 50px;
-    width: fit-content;
+    /* border-style: solid; */
     border-radius: 15px;
+    width: fit-content;
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-weight: bold;
+}
 
-    /* debug */
-    background-color: green;
+form > * {
+    font-weight: inherit;
 }
 
 .searchIcon {
-    background-color: #F2F2F2;
     align-self: center;
-    padding: 0px 16px 0px 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+input[type="search"] {
+    padding-left: 16px;
+    border: 0px;
 }
 
 .searchButton {
     background-color: #0065FC;
     color: white;
     padding: 0px 16px 0px 16px;
+    /* FIXME: Pas une meilleur version directement sur le container ? */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     border: none;
 }
 
