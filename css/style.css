@@ -10,7 +10,7 @@ html {
     font-family: 'Raleway', sans-serif;
 
     /* debug */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
     /* debug */
     border: 3px;
-    border-color: brown;
+    /* border-color: brown; */
 }
 
 h1, h2 {
@@ -30,7 +30,7 @@ h1, h2 {
 h1 {
     font-size: 22px;
     /* debug */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 h2 {
@@ -63,7 +63,7 @@ a {
     height: 48px;
     border: 1px solid rgb(217, 217, 217);
     border-radius: 25px;
-    margin: 10px;
+    /* margin: 10px; */
 
     /* debug */
     background-color: white;
@@ -87,7 +87,7 @@ a {
 
 header {
     /* debug */
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
 }
 
 /* Logo/nav container */
@@ -97,7 +97,7 @@ header {
     justify-content: space-between;
 
     /* debug */
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .heading nav ul {
@@ -107,7 +107,7 @@ header {
     display: flex;
 
     /* debug */
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .heading nav ul li {
@@ -116,7 +116,7 @@ header {
     border-top: 3px solid transparent;
 
     /* debug */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .heading nav ul li:hover {
@@ -139,10 +139,14 @@ header {
 .headingFooter {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    row-gap: 20px;
 
     /* debug */
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
+}
+
+.headingFooter > p {
+    margin-top: -15px;
 }
 
 form {
@@ -189,9 +193,19 @@ input[type="search"] {
     margin: 0px;
 }
 
+#information-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    /* debug */
+    /* background-color: red; */
+}
+
 .filterBar {
     display: flex;
     flex-direction: row;
+    column-gap: 36px;
     align-items: center;
 }
 
