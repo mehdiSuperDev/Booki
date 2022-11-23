@@ -174,7 +174,8 @@ form > * {
 
 input[type="search"] {
     padding-left: 16px;
-    border: 0px;
+    border-color: #F2F2F2;
+    border-style: solid;
 }
 
 .searchButton {
