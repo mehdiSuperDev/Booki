@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/0fc3683efd.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <div class="heading">
-        <img src="assets/logo/Booki.png" alt="Booki"/>
-        <nav>
-          <ul>
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
-          </ul>
-        </nav>
-      </div>
 
-      <div class="headingFooter">
+<head>
+  <meta charset="utf-8">
+  <title>title</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/0fc3683efd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="heading">
+      <img src="assets/logo/Booki.png" alt="Booki" />
+      <nav>
+        <ul>
+          <li><a href="#">Hébergements</a></li>
+          <li><a href="#">Activités</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="headingFooter">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre-ville ou en pleine nature</p>
       <div class="formContainer">
         <form method="post" action="placeholder.php">
           <i class="fa-sharp fa-solid fa-location-dot searchIcon"></i>
           <input type="search" value="Marseille, France" placeholder="localisation" name="location" id="location">
-          <button type="button" class="searchButton"><p>Rechercher</p></button>
+          <button type="button" class="searchButton">
+            <p>Rechercher</p>
+          </button>
         </form>
       </div>
       <div class="filterBar">
@@ -48,25 +52,41 @@
         </div>
       </div>
       <div id="information-container">
-        <a href="#""><i class="fa-solid fa-circle-info"></i></a>
+        <a href="#""><i class=" fa-solid fa-circle-info"></i></a>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </div>
-    </header>
+  </header>
 
-    <main>
-      <section>
-        <h2>Hébergements à Marseille</h2>
-      </section>
-      <section>
-        <h2>Les plus populaires</h2>
-      </section>
-      <Section>
-        <h2>Activités à Marseille</h2>
-      </Section>
-    </main>
+  <main>
+    <section>
+      <h2>Hébergements à Marseille</h2>
+      <article>
+        <div class="card-container">
+          <a href="#">
+          <img src="assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="appart fred kleber">
+          <div class="card-details">
+              <h3>Auberge la canebière</h3>
+              <p>Nuit à partir de 25€</p>
+              <p>Stars</p>
+          </div>
+          </a>
 
-    <Footer>
-    </Footer>
-  </body>
+          <!-- Ref div clickable -->
+          <!-- https://css-tricks.com/snippets/jquery/make-entire-div-clickable/ -->
+      </div>
+      </article>
+    </section>
+    <section>
+      <h2>Les plus populaires</h2>
+    </section>
+    <Section>
+      <h2>Activités à Marseille</h2>
+    </Section>
+  </main>
+
+  <Footer>
+  </Footer>
+</body>
+
 </html>
