@@ -309,6 +309,26 @@ article {
     margin: 0px;
 }
 
+/* Section Activity */
+
+.card-container-activity {
+
+    /* debug */
+    width: 25%;
+}
+
+.card-container-activity img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-container-activity h3 {
+    padding-left: 16px;
+}
+
 
 /* Footer */
 
@@ -318,6 +338,9 @@ article {
     flex-wrap: wrap;
     justify-content: left;
     column-gap: 250px;
+
+    margin-top: 16px;
+
     background-color: #F2F2F2;
 }
 
