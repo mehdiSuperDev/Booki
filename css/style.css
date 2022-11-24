@@ -27,6 +27,10 @@ h1, h2 {
     font-style: normal;
 }
 
+ul {
+    list-style: none;
+}
+
 h1 {
     font-size: 22px;
     /* debug */
@@ -101,7 +105,6 @@ header {
 }
 
 .heading nav ul {
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -309,7 +312,15 @@ article {
 
 /* Footer */
 
-footer {
-    /* debug */
-    background-color: hotpink;
+.section-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    column-gap: 250px;
+    background-color: #F2F2F2;
+}
+
+.section-footer ul li {
+    margin-bottom: 12px;
 }
