@@ -139,7 +139,7 @@ header {
     height: auto;
 }
 
-.headingFooter {
+.heading-footer {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -148,7 +148,7 @@ header {
     /* background-color: darkmagenta; */
 }
 
-.headingFooter > p {
+.heading-footer > p {
     margin-top: -15px;
 }
 
@@ -181,7 +181,7 @@ input[type="search"] {
     border-style: solid;
 }
 
-.searchButton {
+.search-button {
     background-color: #0065FC;
     color: white;
     padding: 0px 16px 0px 16px;
@@ -192,7 +192,7 @@ input[type="search"] {
 }
 
 /* Reset heading footer items */
-.headingFooter > * {
+.heading-footer > * {
     padding: 0px;
     margin: 0px;
 }
@@ -206,7 +206,7 @@ input[type="search"] {
     /* background-color: red; */
 }
 
-.filterBar {
+.filter-bar {
     display: flex;
     flex-direction: row;
     column-gap: 36px;
