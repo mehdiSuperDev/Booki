@@ -100,35 +100,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* debug */
-    /* background-color: gold; */
 }
 
-.heading nav ul {
+.heading ul {
     padding: 0;
     margin: 0;
     display: flex;
-
-    /* debug */
-    /* background-color: beige; */
 }
 
-.heading nav ul li {
-    display: inline;
-    padding: 30px;
+.heading li {
     border-top: 3px solid transparent;
-
-    /* debug */
-    /* background-color: aquamarine; */
 }
 
-.heading nav ul li:hover {
+.heading li:hover {
     border-top-color: rgba(0, 101, 252, 1);
 }
 
 .heading a {
-    color: black;
+    display: block;
+    padding: 30px;
 }
 
 .heading a:hover {
@@ -144,9 +134,6 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-
-    /* debug */
-    /* background-color: darkmagenta; */
 }
 
 .heading-footer > p {
@@ -155,10 +142,8 @@ header {
 
 form {
     display: flex;
-    /* align-items: stretch; */
     flex-direction: row;
     height: 50px;
-    /* border-style: solid; */
     border-radius: 15px;
     width: fit-content;
     background-color: #F2F2F2;
