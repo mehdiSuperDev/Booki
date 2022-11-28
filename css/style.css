@@ -385,4 +385,18 @@ article {
     row-gap: 30px;
 }
 
-/* Section Activités */
+/* Stars */
+
+.stars-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+}
+
+.star-plain {
+    color: #0065FC;
+}
+
+.star-bordered {
+    color: #F2F2F2;
+}
