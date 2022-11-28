@@ -344,7 +344,7 @@ article {
 .outer-section-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     column-gap: 40px;
 }
 
@@ -354,6 +354,10 @@ article {
     border-radius: 20px;
 }
 
+.grid-33 {
+    width: 33.3333%;
+}
+
 .collocation-section-grid {
     display: flex;
     flex-direction: row;
@@ -361,6 +365,10 @@ article {
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
+}
+
+.grid-66 {
+    width: 66.6666%
 }
 
 .trend-section-grid {
