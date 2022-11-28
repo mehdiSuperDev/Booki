@@ -171,7 +171,6 @@ input[type="search"] {
     background-color: #0065FC;
     color: white;
     padding: 0px 16px 0px 16px;
-    /* FIXME: Pas une meilleur version directement sur le container ? */
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: none;
@@ -354,6 +353,18 @@ article {
     border-radius: 20px;
 }
 
+.inner-section-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-section-container-header i {
+    color: #0065FC;
+}
+
+
 .grid-33 {
     width: 33.3333%;
 }
@@ -376,6 +387,7 @@ article {
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 30px;
+    align-items: center;
 }
 
 /* Stars */
