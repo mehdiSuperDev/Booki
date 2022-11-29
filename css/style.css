@@ -239,13 +239,12 @@ article {
 }
 
 .card-details-1 {
-    /* debug */
-    /* background-color: burlywood; */
+    padding: 10px;
 }
 
 .card-details-1 > * {
     padding: 0px;
-    margin: 10px;
+    margin: 0px;
 }
 
 .card-container-2 {
