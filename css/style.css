@@ -355,7 +355,7 @@ article {
 }
 
 .inner-section-container {
-    padding: 40px;
+    /* padding: 40px; */
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -429,7 +429,7 @@ article {
     }
 
     .inner-section-container {
-        flex-basis: 100%;
+        width: 100%;
     }
 
     .trend-section-grid {
@@ -437,7 +437,7 @@ article {
     }
 
     .card-container-2 {
-        flex-basis: 252px;
+        width: 100%;
     }
 }
 
@@ -500,7 +500,7 @@ article {
     }
 
     .inner-section-container {
-        padding: 20px;
+        padding: 0px;
         background-color: #F2F2F2;
 
         /* reset */
@@ -512,6 +512,9 @@ article {
     }
 
     .card-container {
+        /* reset */
+        padding: 0px;
+
         width: 100%;
     }
 
@@ -540,5 +543,9 @@ article {
         width: 100%;
 
         order: 1;
+    }
+
+    .grid-66, .grid-33, .activity-section-grid {
+        padding: 16px;
     }
 }
