@@ -13,6 +13,11 @@ html {
     /* background-color: yellow; */
 }
 
+article {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     margin: 0px auto;
     max-width: 1400px;
@@ -232,10 +237,17 @@ article {
     background-color: white;
 }
 
-.card-container-1 {
+/* .card-container-1 { */
    
     /* debug */
-    width: 236px;
+    /* width: 236px; */
+    /* width: 33.333333%; */
+    /* flex-basis: 33.333333%; */
+/* } */
+
+.collocation-section-grid article {
+    /* flex-basis: 33.333333%; */
+    flex-basis: calc(33.333333% - 30px);
 }
 
 .card-container-1 img {
@@ -355,7 +367,7 @@ article {
 }
 
 .inner-section-container {
-    /* padding: 40px; */
+    padding: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -373,7 +385,7 @@ article {
 
 
 .trend-section-all {
-    width: 33.3333%;
+    /* width: 33.3333%; */
 }
 
 .collocation-section-grid {
@@ -381,12 +393,15 @@ article {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
+
     column-gap: 30px;
     row-gap: 30px;
 }
 
 .collocation-section-all {
-    width: 66.6666%
+    /* width: 66.6666% */
+    /* flex-grow: 2; */
 }
 
 .trend-section-grid {
@@ -561,5 +576,9 @@ article {
 
     .collocation-section-all, .trend-section-all, .activity-section-grid {
         padding: 16px;
+    }
+
+    .card-container-2 {
+        height: auto;
     }
 }
