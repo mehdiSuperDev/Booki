@@ -482,9 +482,23 @@ article {
     /* Filter (Phone) */
 
     .filter-bar {
-        flex-direction: column;
+        justify-content: space-around;
+        column-gap: 0px;
+        flex-wrap: wrap;
         align-items: flex-start;
+        row-gap: 16px;
+        column-gap: 16px;
     }
+
+    .filter {
+        flex-basis: 45%;
+    }
+
+    .filter p {
+        font-size: 11px;
+    }
+
+
 
 
     .outer-section-container {
