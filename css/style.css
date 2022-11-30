@@ -372,7 +372,7 @@ article {
 }
 
 
-.grid-33 {
+.trend-section-all {
     width: 33.3333%;
 }
 
@@ -385,7 +385,7 @@ article {
     row-gap: 30px;
 }
 
-.grid-66 {
+.collocation-section-all {
     width: 66.6666%
 }
 
@@ -530,7 +530,7 @@ article {
     }
 
     /* Hebergement à Marseille */
-    .grid-66 {
+    .collocation-section-all {
         /* reset */
         width: 100%;
         background-color: white;
@@ -538,14 +538,14 @@ article {
         order: 2
     }
 
-    .grid-33 {
+    .trend-section-all {
         /* reset */
         width: 100%;
 
         order: 1;
     }
 
-    .grid-66, .grid-33, .activity-section-grid {
+    .collocation-section-all, .trend-section-all, .activity-section-grid {
         padding: 16px;
     }
 }
