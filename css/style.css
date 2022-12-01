@@ -8,38 +8,20 @@
 
 html {
     font-family: 'Raleway', sans-serif;
-
-    /* debug */
-    /* background-color: yellow; */
-}
-
-article {
-    padding: 0px;
-    margin: 0px;
 }
 
 body {
     margin: 0px auto;
     max-width: 1400px;
     min-width: 375px;
-
-    /* debug */
-    /* border: 3px; */
-    /* border-color: brown; */
 }
 
 h1, h2 {
     font-style: normal;
 }
 
-ul {
-    list-style: none;
-}
-
 h1 {
     font-size: 22px;
-    /* debug */
-    /* background-color: violet; */
 }
 
 h2 {
@@ -49,6 +31,16 @@ h2 {
 h3 {
     font-size: 16px;
 }
+
+article {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
 
 p {
     font-style: normal;
@@ -94,13 +86,6 @@ a {
 
 .filter i {
     color: rgb(0, 101, 252);
-}
-
-/* Header */
-
-header {
-    /* debug */
-    /* background-color: darkgrey; */
 }
 
 /* Logo/nav container */
@@ -207,9 +192,6 @@ input[type="search"] {
     display: flex;
     align-items: center;
     column-gap: 10px;
-
-    /* debug */
-    /* background-color: red; */
 }
 
 .filter-bar {
@@ -221,23 +203,6 @@ input[type="search"] {
 
 /* Main */
 
-main {
-    /* debug */
-    /* background-color: aqua; */
-}
-
-/* Section */
-
-section {
-    /* debug */
-    /* background-color: coral; */
-}
-
-article {
-    /* debug */
-    /* background-color: white; */
-}
-
 .card-container {
     padding: 5px;
     border-radius: 20px;
@@ -245,16 +210,7 @@ article {
     background-color: white;
 }
 
-/* .card-container-1 { */
-   
-    /* debug */
-    /* width: 236px; */
-    /* width: 33.333333%; */
-    /* flex-basis: 33.333333%; */
-/* } */
-
 .collocation-section-grid article {
-    /* flex-basis: 33.333333%; */
     flex-basis: calc(33.333333% - 30px);
 }
 
@@ -280,10 +236,6 @@ article {
     flex-direction: row;
     column-gap: 16px;
     height: 145px;
-
-    /* debug */
-    flex-basis: 345px;
-    /* width: fit-content; */
 }
 
 .card-item-left {
@@ -303,17 +255,11 @@ article {
     flex-direction: column;
     justify-content: space-between;
     padding: 8px;
-
-    /* debug */
-    /* background-color: red; */
 }
 
 .card-item-right-top {
     display: flex;
     flex-direction: column;
-
-    /* debug */
-    /* background-color: orange; */
 }
 
 .card-item-right-top > * {
@@ -353,7 +299,7 @@ article {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: left;
-    column-gap: 200px;
+    column-gap: 100px;
 
     margin-top: 16px;
 
@@ -391,11 +337,6 @@ article {
     color: #0065FC;
 }
 
-
-.trend-section-all {
-    /* width: 33.3333%; */
-}
-
 .collocation-section-grid {
     display: flex;
     flex-direction: row;
@@ -405,11 +346,6 @@ article {
 
     column-gap: 30px;
     row-gap: 30px;
-}
-
-.collocation-section-all {
-    /* width: 66.6666% */
-    /* flex-grow: 2; */
 }
 
 .trend-section-grid {
@@ -537,9 +473,6 @@ article {
     .filter p {
         font-size: 11px;
     }
-
-
-
 
     .outer-section-container {
         /* reset */
