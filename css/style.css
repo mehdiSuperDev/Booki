@@ -281,6 +281,8 @@ input[type="search"] {
 
 .card-container-activity {
     padding: 0px;
+    /* flex-basis: 22%; */
+    flex-basis: calc(25% - 16px);
 }
 
 .card-container-activity img {
@@ -409,6 +411,7 @@ input[type="search"] {
     .card-container-2 {
         flex-basis: calc(33.333333% - 30px);
         height: auto;
+        /* height: 145px; */
     }
 
     .outer-section-container {
@@ -422,9 +425,9 @@ input[type="search"] {
         justify-content: space-between;
     }
 
-    .card-container-activity {
+    /* .card-container-activity {
         flex-basis: 22%;
-    }
+    } */
 
     .card-container-activity img {
         height: 265px;
@@ -551,7 +554,8 @@ input[type="search"] {
     }
 
     .card-container-2 {
-        height: auto;
+        /* height: auto; */
+        height: 145px;
     }
 
     .section-footer {
