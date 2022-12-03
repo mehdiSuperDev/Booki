@@ -253,6 +253,7 @@ input[type="search"] {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 100%;
+    /* height: 145px; */
     width: 100%;
     object-fit: cover;
 }
@@ -355,12 +356,16 @@ input[type="search"] {
     row-gap: 30px;
 }
 
+.trend-section-all {
+    width: calc(33.3333% - 30px);
+}
+
 .trend-section-grid {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 30px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* Stars */
