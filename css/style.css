@@ -483,6 +483,10 @@ input[type="search"] {
         column-gap: 16px;
     }
 
+    .filter-bar h2 {
+        width: 100%;
+    }
+
     .filter {
         flex-basis: 45%;
     }
