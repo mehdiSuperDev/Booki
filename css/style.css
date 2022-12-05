@@ -491,6 +491,10 @@ input[type="search"] {
         text-align: center;
     }
 
+    .search-button > p {
+        display: none;
+    }
+
     /* Filter (Phone) */
 
     .filter-bar {
