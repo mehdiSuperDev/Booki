@@ -17,11 +17,13 @@ html {
 }
 
 body {
-    margin: 0px auto;
-    margin-left: 16px;
-    margin-right: 16px;
-    max-width: 1400px;
     min-width: 375px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    margin: 0 16px;
 }
 
 h1, h2 {
