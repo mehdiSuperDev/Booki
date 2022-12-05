@@ -9,6 +9,7 @@
 
 img {
     min-height: 0;
+    min-width: 0;
 }
 
 html {
@@ -206,6 +207,10 @@ input[type="search"] {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+#information-container > a {
+    color: #0065FC;
 }
 
 .filter-bar {
