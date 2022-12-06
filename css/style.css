@@ -95,7 +95,8 @@ a.fill-div {
     background-color: #DEEBFF;
 }
 
-.filter p {
+.filter-text {
+    display: block;
     font-weight: bold;
     font-size: 17px;
     margin-left: 10px;
@@ -197,6 +198,10 @@ input[type="search"] {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: none;
+}
+
+.search-button i {
+    display: none;
 }
 
 /* Reset heading footer items */
@@ -506,8 +511,12 @@ input[type="search"] {
         margin-top: 16px;
     }
 
-    .search-button > p {
+    .search-button .filter-text {
         display: none;
+    }
+
+    .search-button i {
+        display: block;
     }
 
     /* Filter (Phone) */
@@ -528,7 +537,7 @@ input[type="search"] {
         flex-basis: 45%;
     }
 
-    .filter p {
+    .filter-text {
         font-size: 11px;
     }
 
