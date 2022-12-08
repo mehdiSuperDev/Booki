@@ -511,7 +511,7 @@ input[type="search"] {
         margin-top: 16px;
     }
 
-    .search-button .filter-text {
+    .button-search-text {
         display: none;
     }
 
