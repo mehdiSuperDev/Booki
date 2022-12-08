@@ -2,15 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
 
-/* ! TODO -- Transform RGB To Hex -- ¡ */
-
-/* Common */
-
-
-img {
-    min-height: 0;
-    min-width: 0;
-}
+/*********** Common ************/
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -73,7 +65,13 @@ a.fill-div {
     text-decoration: none;
 }
 
-/* Component */
+img {
+    min-height: 0;
+    min-width: 0;
+}
+
+/*********** Component ************/
+/*********** Desktop ************/
 
 /* Filter */
 
@@ -107,13 +105,12 @@ a.fill-div {
 }
 
 /* Logo/nav container */
+
 .heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-/* [Begin TODO] Gérer l'égalité des largeurs des li */
 
 .heading nav ul li p {
     padding-left: 10px;
@@ -127,8 +124,6 @@ a.fill-div {
     flex-direction: row;
     flex-wrap: nowrap;
 }
-
-/* [END TODO] */
 
 .heading li {
     border-top: 3px solid transparent;
@@ -200,12 +195,17 @@ input[type="search"] {
     border: none;
 }
 
+.search-button:active {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
 .search-button i {
     display: none;
 }
 
-/* Reset heading footer items */
 .heading-footer > * {
+    /* Reset heading footer items */
     padding: 0px;
     margin: 0px;
 }
@@ -423,11 +423,9 @@ input[type="search"] {
     color: #F2F2F2;
 }
 
+/*********** Media queries ************/
+/*********** Tablet ************/
 
-/* Media queries */
-
-
-/* Tablet */
 @media all and (min-width: 769px) and (max-width: 992px) 
 {
     .outer-section-container {
@@ -470,7 +468,9 @@ input[type="search"] {
 }
 
 
-/* Phone */
+/*********** Media queries ************/
+/*********** Phone ************/
+
 @media all and (max-width: 768px)
 {
     .heading {
@@ -518,8 +518,6 @@ input[type="search"] {
     .search-button i {
         display: block;
     }
-
-    /* Filter (Phone) */
 
     .filter-bar {
         justify-content: space-around;
